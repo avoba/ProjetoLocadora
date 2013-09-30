@@ -19,6 +19,11 @@ public class Cliente extends pessoa {
         this.saldoDisponivel = saldoDisponivel;
     }
 
+    @Override
+    public String toString() {
+        return "Cliente{" + "saldoDisponivel=" + saldoDisponivel + '}';
+    }
+
 
     
 }
